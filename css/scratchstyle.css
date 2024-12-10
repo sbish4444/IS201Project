@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(163, 210, 212);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: RGB(54, 69, 79);
+}
+
+ol {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    color: black;
+}
+
+
+.bold {
+    font-weight: bolder;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    color: RGB(204, 126, 141);
+    text-decoration: underline;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    color: RGB(54, 69, 79);
+    text-decoration: underline;
+}
+
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    color: rgb(1, 100, 142);
+    text-decoration: solid
+}
+
+
+.box-model {
+    padding: 15px;
+    background-color: aliceblue;
+    border: 10px solid greenyellow;
+    margin: 10px;
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+.ladder-container {
+    position: fixed;
+    bottom: 10px;  
+    left: 10px;    
+    text-align: center;
+    display: block;
+  }
+  
+  .ladder-button {
+    background-color: white;
+    border: none;
+    border-radius: 50%; 
+    padding: 15px;        
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    z-index: 1000;   
+    transition: transform 0.3s ease; 
+  }
+  
+  .ladder-button img {
+    width: 40px;   
+    height: auto;
+  }
+  
+  .ladder-container:hover .ladder-button {
+    transform: scale(1.1); 
+  }
+  
+  .scroll-to-top {
+    display: block;
+    margin-top: 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .scroll-to-top:hover {
+    text-decoration: underline;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
